@@ -1,4 +1,5 @@
-🪙 Race for Coins
+# Race for Coins
+
 Race for Coins is a small arcade game built with Python and Pygame.
 
 The game was developed in the context of the MOOC Advanced Python Programming training as a practical exercise to apply Python programming concepts through game development.
@@ -9,7 +10,7 @@ Teleportation doors can move you across the arena, while the monster continuousl
 
 The first to collect 15 coins wins. 🤖 ⚔️ 👾
 
-🎮 How to Play
+# How to Play
 Use the arrow keys to control the robot:
 
 ⬆️ Up Arrow — move up
@@ -33,9 +34,9 @@ The first player to collect 15 coins wins the match.
 
 When the game ends, press Space to start a new match.
 
-🚀 Installation
+# Installation
 1. Clone the repository
-git clone YOUR_REPOSITORY_URL
+git clone <REPOSITORY_URL>
 
 cd race-for-coins
 
@@ -56,7 +57,7 @@ python -m venv .venv
 pip install -r requirements.txt
 
 4. Run the game
-python game.py
+python main.py
 
 📦 Requirements
 The project uses Pygame.
@@ -74,17 +75,15 @@ race-for-coins/
 
 ├── .gitignore
 
-├── game.py
+├── main.py
 
-└── assets/
+├── robot.png
 
-    ├── robot.png
+├── monster.png
 
-    ├── monster.png
+├── coin.png
 
-    ├── coin.png
-
-    └── door.png
+└── door.png
 
 ✨ Features
 🤖 Player-controlled robot
